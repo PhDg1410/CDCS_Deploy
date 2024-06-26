@@ -2,7 +2,7 @@ version: '3'
 
 services:
   elasticsearch:
-    container_name: es-01
+    container_name: elasticsearch
     image: docker.elastic.co/elasticsearch/elasticsearch:7.17.20
     ports:
       - 9200:9200
