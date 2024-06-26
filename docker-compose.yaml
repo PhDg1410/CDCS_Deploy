@@ -9,4 +9,4 @@ services:
       - /var/log/kern.log:/var/log/sv-kern.log
       - /var/log/auth.log:/var/log/sv-auth.log
       - ./fluent-bit-config:/fluent-bit/etc
-      # - /home/ubuntu/Final/backend/logs/combined.log:/var/log/sv-app/combined.log
+      - /home/web/CDCS_Deploy/backend/logs/combined.log:/var/log/sv-app/combined.log
