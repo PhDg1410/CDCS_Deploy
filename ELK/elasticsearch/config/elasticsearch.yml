@@ -1,7 +1,7 @@
 # Default configuration from 
 # https://github.com/elastic/elasticsearch/blob/master/distribution/docker/src/docker/config/elasticsearch.yml
 
-cluster.name: "SIEM"
+cluster.name: "docker-cluster"
 network.host: 0.0.0.0
 
 xpack.security.enabled: true

@@ -6,7 +6,7 @@ server.host: 0.0.0.0
 
 elasticsearch.hosts: [ "http://elasticsearch:9200" ]
 elasticsearch.username: elastic
-elasticsearch.password: cdcs2024
+elasticsearch.password: password
 
 xpack.security.enabled: true
 xpack.encryptedSavedObjects.encryptionKey: "TqaLq5U7kyeDyHN7nlamsiS3bwYwqr17" # Required for Elastic Fleet (random min. 32 char string)
