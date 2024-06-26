@@ -307,7 +307,7 @@ const userController = {
             }
 
             // const filterUsers = users.filter(user => user.role !== 'admin');
-            // const total = filterUsers.length;
+            const total = users.length;
             // const items = filterUsers.map(user => {
             //     return { username: user.username, experience: user.experience };
             // });
