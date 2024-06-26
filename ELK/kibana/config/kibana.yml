@@ -9,5 +9,5 @@ elasticsearch.username: elastic
 elasticsearch.password: cdcs2024
 
 xpack.security.enabled: true
-xpack.encryptedSavedObjects.encryptionKey: "ieOB6hqEVATVjXPqQlGFjr6xE8kFYT7P" # Required for Elastic Fleet (random min. 32 char string)
+xpack.encryptedSavedObjects.encryptionKey: "TqaLq5U7kyeDyHN7nlamsiS3bwYwqr17" # Required for Elastic Fleet (random min. 32 char string)
 xpack.fleet.agents.tlsCheckDisabled: true                                     # Required for Elastic Fleet
