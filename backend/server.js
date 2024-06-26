@@ -104,17 +104,17 @@ console.log(username + "created")
 }
 
 // createUser("admin","admin@gmail.com","12345678aA@","admin")
-createUser("test123","duongvip1410@gmail.com","12345678aA@","user",true)
-createUser("john","john@gmail.com","12345678aA@","user",true)
-createUser("foo","foo@gmail.com","12345678aA@","user",true)
-createUser("duong","duong@gmail.com","12345678aA@","user",true)
-createUser("quang","quang@gmail.com","12345678aA@","user",true)
-createUser("peter","peter@gmail.com","12345678aA@","user",true)
-createUser("susan","susan@gmail.com","12345678aA@","user",true)
-createUser("quagmire","qm@gmail.com","12345678aA@","user",true)
-createUser("darly","darly@gmail.com","12345678aA@","user",true)
-createUser("googles","gg@gmail.com","12345678aA@","user",true)
-createUser("huab","huab@gmail.com","12345678aA@","user",true)
+// createUser("test123","duongvip1410@gmail.com","12345678aA@","user",true)
+// createUser("john","john@gmail.com","12345678aA@","user",true)
+// createUser("foo","foo@gmail.com","12345678aA@","user",true)
+// createUser("duong","duong@gmail.com","12345678aA@","user",true)
+// createUser("quang","quang@gmail.com","12345678aA@","user",true)
+// createUser("peter","peter@gmail.com","12345678aA@","user",true)
+// createUser("susan","susan@gmail.com","12345678aA@","user",true)
+// createUser("quagmire","qm@gmail.com","12345678aA@","user",true)
+// createUser("darly","darly@gmail.com","12345678aA@","user",true)
+// createUser("googles","gg@gmail.com","12345678aA@","user",true)
+// createUser("huab","huab@gmail.com","12345678aA@","user",true)
 // // Routes
 app.use('/api/v1/user', user);
 app.use('/api/v1/course', course);
