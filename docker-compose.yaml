@@ -8,6 +8,5 @@ services:
       - /var/log/audit:/var/log/sv-audit
       - /var/log/kern.log:/var/log/sv-kern.log
       - /var/log/auth.log:/var/log/sv-auth.log
-      - /var/log/kern.log:/var/log/sv-kern/kern.log
       - ./fluent-bit-config:/fluent-bit/etc
       - /home/web/CDCS_Deploy/backend/logs/combined.log:/var/log/sv-app/combined.log
