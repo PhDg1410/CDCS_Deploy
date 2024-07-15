@@ -165,10 +165,6 @@ const userController = {
                         throw new Unauthorized({ message: 'Incorrect Email or Password', req }, 'info');
                     }
         
-                    if (user.loginAttempts >= 5 && !recaptchaResponse) {
-                        throw new Unauthorized({ message: 'Please complete the reCAPTCHA', req }, 'info');
-                    }
-        
                     const isMatch = await user.isCorrectPassword(password);
                     if (!isMatch) {
                         user.loginAttempts += 1;
